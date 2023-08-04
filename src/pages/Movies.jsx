@@ -23,8 +23,8 @@ const Movies = () => {
 
   return (
     <>
-      <SearchBar onChange={updateQueryString} />
-      <FoundMovies films={movies} inputValue={query} />
+      <SearchBar onChange={updateQueryString} inputValue={query} />
+      <FoundMovies films={movies} />
     </>
   );
 };
